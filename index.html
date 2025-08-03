@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn how to build HTML5 page.">
+  <meta name="keywords" content="HTML5, semantic HTML, accessibility, SEO, web development">
+  <meta name="author" content="Simret">
+  <title>Webpage</title>
+</head>
+
+<body>
+  <header>
+    <h1>Web Design</h1>
+    <p>Building a good web page for better usability and discoverability.</p>
+  </header>
+
+  <nav aria-label="Main navigation">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#articles">Articles</a></li>
+      <li><a href="#resources">Resources</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About This Page</h2>
+      <p>This example demonstrates how to use HTML5 semantic elements to create a well-structured and accessible web page. It also highlights the importance of content hierarchy for screen readers and search engines.</p>
+    </section>
+
+    <section id="articles" aria-labelledby="articles-heading">
+      <h2 id="articles-heading">Latest Articles</h2>
+
+      <article aria-labelledby="article1-title">
+        <h3 id="article1-title">The Importance of Semantic HTML</h3>
+        <p>Semantic HTML5 elements help define the meaning of your content, making it easier for both humans and machines to understand your site structure.</p>
+      </article>
+
+      <article aria-labelledby="article2-title">
+        <h3 id="article2-title">Getting Started with Web Accessibility</h3>
+        <p>Accessibility ensures that your content can be used by everyone, including people with disabilities. Learn how to use HTML attributes and structure to improve your website's inclusiveness.</p>
+      </article>
+    </section>
+
+    <aside aria-label="Supplementary Resources" id="resources">
+      <h2>Resources</h2>
+      <ul>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN Web Docs on HTML</a></li>
+        <li><a href="https://www.w3.org/WAI/">W3C Web Accessibility Initiative</a></li>
+        <li><a href="https://web.dev/seo/">Google's SEO Starter Guide</a></li>
+      </ul>
+    </aside>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Simret. All rights reserved.</p>
+    <p><a href="#contact" aria-label="linkedin">Contact</a></p>
+  </footer>
+</body>
+</html>
